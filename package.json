@@ -1,0 +1,33 @@
+{
+  "name": "responsive-template-html5",
+  "version": "1.0.0",
+  "description": "Responsive 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "sync": "node app.js | browser-sync start --proxy localhost:3000 --files \"public\" \"views\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacrol/Responsive-Template-HTML5.git"
+  },
+  "keywords": [
+    "html5",
+    "template",
+    "responsive"
+  ],
+  "author": "Dacrol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dacrol/Responsive-Template-HTML5/issues"
+  },
+  "homepage": "https://github.com/Dacrol/Responsive-Template-HTML5#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
