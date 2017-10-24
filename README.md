@@ -1,1 +1,4 @@
-Responsive 1
+# Responsive Template  
+
+![Screenshot](screenshot.png)
+
