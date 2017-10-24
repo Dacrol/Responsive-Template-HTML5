@@ -1,5 +1,10 @@
-!function () {
+$(function() {
+    markActiveNav();
+  });
+  
+//Add active to current navbar page
+function markActiveNav() {
     var href = location.href;
     var pgurl = href.substr(href.lastIndexOf('/') + 1);
-    $('a[href="/' + pgurl + '"]').addClass('active');
- }();
+    $('nav ul a[href="/' + pgurl + '"]').addClass('active');
+};
