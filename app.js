@@ -28,6 +28,6 @@ app.get('/3', function (req, res) {
 
 app.use(express.static('public/'));
 
-app.listen(3000, function () {
-    console.log('Webserver listening on port 3000');
+app.listen(3100, function () {
+    console.log('Webserver listening on port 3100');
 });
