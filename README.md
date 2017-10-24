@@ -1,4 +1,4 @@
 # Responsive Template  
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" width="500" alt="Screenshot at full-width"/>
 
